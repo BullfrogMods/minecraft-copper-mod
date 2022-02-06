@@ -1,0 +1,203 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe"
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CopperHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_helmet_recipe"
+    },
+    {
+      "name": "CopperChestplateRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_chestplate_recipe"
+    },
+    {
+      "name": "CopperLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_leggings_recipe"
+    },
+    {
+      "name": "CopperBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_boots_recipe"
+    },
+    {
+      "name": "WaitaSecond",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waita_second"
+    },
+    {
+      "name": "CopperArmorAdvancement",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test.copper_axe": "Copper Axe",
+      "item.test.copper_sword": "Copper Sword",
+      "item.copper_mod.copper_sword": "Copper Sword",
+      "item.copper_mod.copper_shovel": "Copper Shovel",
+      "item.copper_mod.copper_pickaxe": "Copper Pickaxe",
+      "item.copper_mod.copper_axe": "Copper Axe",
+      "advancements.waita_second.descr": "Get full Copper Armor",
+      "item.copper_mod.copper_armor_chestplate": "Copper Chestplate",
+      "item.test.copper_armor_boots": "Copper Boots",
+      "advancements.waita_second.title": "Wait a Second...",
+      "item.test.copper_hoe": "Copper Hoe",
+      "item.test.copper_armor_leggings": "Copper Leggings",
+      "item.test.copper_shovel": "Copper Shovel",
+      "item.copper_mod.copper_armor_leggings": "Copper Leggings",
+      "item.copper_mod.copper_hoe": "Copper Hoe",
+      "item.test.copper_armor_chestplate": "Copper Chestplate",
+      "item.test.copper_armor_helmet": "Copper Helmet",
+      "item.copper_mod.copper_armor_boots": "Copper Boots",
+      "item.test.copper_pickaxe": "Copper Pickaxe",
+      "item.copper_mod.copper_armor_helmet": "Copper Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "copper_mod",
+    "modName": "Copper Mod",
+    "version": "1.0.0",
+    "author": "Jeremiah, MCreator",
+    "websiteURL": "https://github.com/BullfrogMods/minecraft-copper-mod",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

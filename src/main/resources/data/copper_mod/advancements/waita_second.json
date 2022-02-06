@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "advancements.waita_second.title"
+    },
+    "description": {
+      "translate": "advancements.waita_second.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "waita_second": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:story/upgrade_tools"
+}
