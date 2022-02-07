@@ -7,8 +7,8 @@ modId="copper_mod"
 version="1.0.0"
 displayName="Copper Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="jeremiah, MCreator"
+displayURL="https://github.com/BullfrogMods/minecraft-copper-mod"
+authors="Jeremiah, MCreator"
 
 [[dependencies.copper_mod]]
     modId="minecraft"
