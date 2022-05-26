@@ -36,6 +36,5 @@ public class CopperPickaxeItem extends PickaxeItem {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("copper_pickaxe");
 	}
 }

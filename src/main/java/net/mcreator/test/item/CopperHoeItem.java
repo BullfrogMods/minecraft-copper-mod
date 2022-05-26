@@ -36,6 +36,5 @@ public class CopperHoeItem extends HoeItem {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 		}, 0, -1.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("copper_hoe");
 	}
 }

@@ -36,6 +36,5 @@ public class CopperAxeItem extends AxeItem {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 		}, 1, -3.15f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-		setRegistryName("copper_axe");
 	}
 }

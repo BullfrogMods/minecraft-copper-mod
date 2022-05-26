@@ -26,8 +26,7 @@ public class CopperArmorAdvancementProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			Entity entity = event.player;
-			execute(event, entity);
+			execute(event, event.player);
 		}
 	}
 
@@ -43,13 +42,13 @@ public class CopperArmorAdvancementProcedure {
 						.getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("copper_mod:waita_second"))).isDone()
 				: false)) {
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-					.getItem() == CopperModModItems.COPPER_ARMOR_HELMET
+					.getItem() == CopperModModItems.COPPER_ARMOR_HELMET.get()
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-							.getItem() == CopperModModItems.COPPER_ARMOR_CHESTPLATE
+							.getItem() == CopperModModItems.COPPER_ARMOR_CHESTPLATE.get()
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY)
-							.getItem() == CopperModModItems.COPPER_ARMOR_LEGGINGS
+							.getItem() == CopperModModItems.COPPER_ARMOR_LEGGINGS.get()
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
-							.getItem() == CopperModModItems.COPPER_ARMOR_BOOTS) {
+							.getItem() == CopperModModItems.COPPER_ARMOR_BOOTS.get()) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("copper_mod:waita_second"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

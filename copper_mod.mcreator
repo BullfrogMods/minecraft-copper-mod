@@ -184,7 +184,7 @@
   "workspaceSettings": {
     "modid": "copper_mod",
     "modName": "Copper Mod",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Make copper useful! With this mod, armor and tools can be made from copper.",
     "author": "Jeremiah, MCreator",
     "websiteURL": "https://github.com/BullfrogMods/minecraft-copper-mod",
@@ -195,10 +195,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.17.1",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.test",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200120510
 }

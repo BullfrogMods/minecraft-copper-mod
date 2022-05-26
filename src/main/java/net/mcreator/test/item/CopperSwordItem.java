@@ -36,6 +36,5 @@ public class CopperSwordItem extends SwordItem {
 				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
 			}
 		}, 3, -2.4000000000000001f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-		setRegistryName("copper_sword");
 	}
 }

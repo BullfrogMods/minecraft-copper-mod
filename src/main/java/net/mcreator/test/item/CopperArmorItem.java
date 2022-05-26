@@ -63,7 +63,6 @@ public abstract class CopperArmorItem extends ArmorItem {
 	public static class Helmet extends CopperArmorItem {
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("copper_armor_helmet");
 		}
 
 		@Override
@@ -75,7 +74,6 @@ public abstract class CopperArmorItem extends ArmorItem {
 	public static class Chestplate extends CopperArmorItem {
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("copper_armor_chestplate");
 		}
 
 		@Override
@@ -87,7 +85,6 @@ public abstract class CopperArmorItem extends ArmorItem {
 	public static class Leggings extends CopperArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("copper_armor_leggings");
 		}
 
 		@Override
@@ -99,7 +96,6 @@ public abstract class CopperArmorItem extends ArmorItem {
 	public static class Boots extends CopperArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
-			setRegistryName("copper_armor_boots");
 		}
 
 		@Override
