@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[45,)"
 license="MIT License"
 
 [[mods]]
@@ -9,14 +9,12 @@ displayName="Copper Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/BullfrogMods/minecraft-copper-mod"
 authors="Jeremiah, MCreator"
-description='''
-Make copper useful! With this mod, armor and tools can be made from copper.
-'''
+description="Make copper useful! With this mod, armor and tools can be made from copper."
 
 [[dependencies.copper_mod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 
