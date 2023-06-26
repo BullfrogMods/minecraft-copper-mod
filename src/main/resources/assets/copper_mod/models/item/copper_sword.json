@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "copper_mod:items/coppersword"
+    "layer0": "copper_mod:item/coppersword"
   }
 }

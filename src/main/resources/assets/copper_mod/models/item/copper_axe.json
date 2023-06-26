@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "copper_mod:items/diamond_axe"
+    "layer0": "copper_mod:item/diamond_axe"
   }
 }
