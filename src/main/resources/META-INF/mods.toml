@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="copper_mod"
-version="1.0.2"
+version="1.1.0"
 displayName="Copper Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/BullfrogMods/minecraft-copper-mod"
